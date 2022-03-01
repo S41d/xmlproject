@@ -1,0 +1,819 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE boutique SYSTEM 'Projet.dtd'>
+
+<boutique>
+  <rayon nom="homme">
+    <categorie nom="vêtements">
+      <type nom="polaire">
+        <article id="a_1564" quantite="20">
+          <nom>Veste Polaire Chaude De Randonnée - SH100 U-WARM - HOMME</nom>
+          <marque>QUECHUA</marque>
+          <prix>35</prix>
+          <couleurs>
+            <couleur nom="noir"/>
+            <couleur nom="bleu"/>
+            <couleur nom="gris"/>
+            <couleur nom="bleu-foncé"/>
+          </couleurs>
+          <image src="./images/a_1564_noir.webp"/>
+          <avis>
+            <commentaire id="c_1">produit de bonne qualité</commentaire>
+          </avis>
+        </article>
+        <article id="a_1254" quantite="100">
+          <nom>Polaire de randonnée - MH100 - Homme</nom>
+          <marque>QUECHUA</marque>
+          <prix>9</prix>
+          <couleurs>
+            <couleur nom="noir"/>
+            <couleur nom="gris"/>
+          </couleurs>
+          <image src="./images/a_1254_noir.webp"/>
+          <avis>
+            <commentaire id="c_178">produit de bonne qualité</commentaire>
+          </avis>
+        </article>
+      </type>
+      <type nom="survêtements">
+        <article id="a_4564" quantite="200">
+          <nom>Pantalon jogging Fitness Bas resserré</nom>
+          <marque>NYAMBA</marque>
+          <prix>10</prix>
+          <couleurs>
+            <couleur nom="noir"/>
+            <couleur nom="gris"/>
+          </couleurs>
+          <image src="./images/a_4564_noir.webp"/>
+          <avis>
+            <commentaire id="c_12">jolie produit</commentaire>
+          </avis>
+        </article>
+        <article id="a_8565" quantite="120">
+          <nom>PANTALON DE SURVÊTEMENT PUMA FITNESS</nom>
+          <marque>PUMA</marque>
+          <prix>40</prix>
+          <promotion>25</promotion>
+          <couleurs>
+            <couleur nom="noir"/>
+          </couleurs>
+          <image src="./images/a_8565_noir.webp"/>
+          <avis>
+            <commentaire id="c_123">Tres confortable</commentaire>
+          </avis>
+        </article>
+      </type>
+      <type nom="pantalons">
+        <article id="a_4668" quantite="752">
+          <nom>Pantalon cargo de trek voyage - TRAVEL 100 Homme</nom>
+          <marque>FORCLAZ</marque>
+          <prix>30</prix>
+          <couleurs>
+            <couleur nom="gris"/>
+            <couleur nom="marron"/>
+          </couleurs>
+          <image src="./images/a_4668_gris.webp"/>
+          <avis>
+            <commentaire id="c_1234">Concernant Pantalon cargo de trek voyage - TRAVEL 100 gris Homme</commentaire>
+          </avis>
+        </article>
+        <article id="a_7589" quantite="500">
+          <nom>PANTALON CHAUD DÉPERLANT DE RANDONNÉE NEIGE - SH500 X-WARM - STRETCH HOMME</nom>
+          <marque>QUECHUA</marque>
+          <prix>50</prix>
+          <couleurs>
+            <couleur nom="noir"/>
+            <couleur nom="gris"/>
+          </couleurs>
+          <image src="./images/a_7589_noir.webp"/>
+          <avis>
+            <commentaire id="c_1235">Mon fils le met pour le sport au collège. Il est très content, car souple, s'adapte
+              aux mouvements. Il tient chaud et surtout, il est facile d'entretien.
+            </commentaire>
+          </avis>
+        </article>
+      </type>
+      <type nom="sous-vêtements thermiques">
+        <article id="a_7895" quantite="45">
+          <nom>Sous-vêtement de ski homme haut 100 Noir</nom>
+          <marque>WEDZE</marque>
+          <prix>6</prix>
+          <couleurs>
+            <couleur nom="noir"/>
+          </couleurs>
+          <image src="./images/a_7895_noir.webp"/>
+          <avis>
+            <commentaire id="c_1236">produit correspondant à mon attente</commentaire>
+            <commentaire id="c_1237">Tient bien le chaud !</commentaire>
+          </avis>
+        </article>
+        <article id="a_5785" quantite="20">
+          <nom>Sous-vêtement de ski homme 500 haut noir</nom>
+          <marque>WEDZE</marque>
+          <prix>13</prix>
+          <couleurs>
+            <couleur nom="noir"/>
+          </couleurs>
+          <image src="./images/a_5785_noir.webp"/>
+          <avis>
+            <commentaire id="c_1238">Top</commentaire>
+            <commentaire id="c_1239">Je recommande vivement</commentaire>
+            <commentaire id="c_1240">léger mais très chaud , parfait pour skier ou marcher</commentaire>
+          </avis>
+        </article>
+        <article id="a_9566" quantite="100">
+          <nom>Sous-vêtement de ski homme 500 bas noir</nom>
+          <marque>WEDZE</marque>
+          <prix>13</prix>
+          <couleurs>
+            <couleur nom="noir"/>
+          </couleurs>
+          <image src="./images/a_9866_noir.webp"/>
+          <avis>
+            <commentaire id="c_1241">bon rapport qualité prix confortable et robuste, bien chaud j'en suis vraiment
+              contente
+            </commentaire>
+            <commentaire id="c_1242">Satisfait</commentaire>
+          </avis>
+        </article>
+      </type>
+      <type nom="tee-shirts">
+        <article id="a_7894" quantite="45">
+          <nom>T-shirt fitness Sportee manches courtes slim coton col rond homme</nom>
+          <marque>NYAMBA</marque>
+          <prix>3</prix>
+          <couleurs>
+            <couleur nom="noir"/>
+            <couleur nom="gris"/>
+            <couleur nom="bleu-noir"/>
+          </couleurs>
+          <image src="./images/a_7894_noir.webp"/>
+          <avis>
+            <commentaire id="c_1250">Pas très long</commentaire>
+            <commentaire id="c_1251">N’est pas très long, mais fait le job</commentaire>
+          </avis>
+        </article>
+      </type>
+    </categorie>
+    <categorie nom="chaussant">
+      <type nom="après-ski">
+        <article id="a_4566" quantite="70">
+          <nom>Chaussures chaudes et imperméables de randonnée - SH100 X-WARM</nom>
+          <marque>QUECHUA</marque>
+          <prix>50</prix>
+          <couleurs>
+            <couleur nom="vert"/>
+            <couleur nom="beige"/>
+            <couleur nom="gris"/>
+            <couleur nom="bleu"/>
+          </couleurs>
+          <image src="./images/a_4566_vert.webp"/>
+          <avis>
+            <commentaire id="c_1254">Rapport qualité prix excellent</commentaire>
+            <commentaire id="c_1255">Testé sur 20 km à -2°. Même pas froid👋👋</commentaire>
+          </avis>
+        </article>
+        <article id="a_5578" quantite="50">
+          <nom>Bottes CHAUDE Solden</nom>
+          <marque>MEINDL</marque>
+          <prix>120</prix>
+          <couleurs>
+            <couleur nom="marron"/>
+          </couleurs>
+          <image src="./images/a_5578_marron.webp"/>
+          <avis>
+            <commentaire id="c_1256">deux fois utilisées deux fois elles ont pris l eau</commentaire>
+            <commentaire id="c_1257">Je les ai depuis quelques mois et pas top,même en mettant des chaussettes
+              thermique.j'ai les pieds tjrs geler....
+            </commentaire>
+            <commentaire id="c_1258">excellentes pompes</commentaire>
+          </avis>
+        </article>
+      </type>
+      <type nom="baskets">
+        <article id="a_454" quantite="55">
+          <nom>Chaussures marche sportive homme Adidas vs pace</nom>
+          <marque>ADIDAS</marque>
+          <prix>60</prix>
+          <couleurs>
+            <couleur nom="gris"/>
+          </couleurs>
+          <image src="./images/a_454_gris.webp"/>
+          <avis>
+
+          </avis>
+        </article>
+        <article id="a_456" quantite="10">
+          <nom>CHAUSSURE DE RUNNING HOMME RUN ACTIVE GRIP NOIR GRIS</nom>
+          <marque>KALENJI</marque>
+          <prix>35</prix>
+          <couleurs>
+            <couleur nom="noir"/>
+            <couleur nom="blanc"/>
+            <couleur nom="bleu-turquoise"/>
+            <couleur nom="vert"/>
+          </couleurs>
+          <image src="./images/a_456_blanc.webp"/>
+          <avis>
+            <commentaire id="c_1252">Très bien pour le prix</commentaire>
+            <commentaire id="c_1253">Bien</commentaire>
+          </avis>
+        </article>
+        <article id="a_4546" quantite="20">
+          <nom>Chaussures marche active homme HW 100</nom>
+          <marque>NEWFEEL</marque>
+          <prix>20</prix>
+          <couleurs>
+            <couleur nom="noir"/>
+          </couleurs>
+          <image src="./images/a_4546_noir.webp"/>
+          <avis>
+            <commentaire id="c_1280">Pas cher et légère voir si elle tient dans le temps</commentaire>
+            <commentaire id="c_1259">Bien</commentaire>
+          </avis>
+        </article>
+      </type>
+      <type nom="sandales">
+        <article id="a_4555" quantite="40">
+          <nom>Sandales de randonnée - NH120 - Homme</nom>
+          <marque>QUECHUA</marque>
+          <prix>30</prix>
+          <promotion>25</promotion>
+          <couleurs>
+            <couleur nom="marron"/>
+          </couleurs>
+          <image src="./images/a_4555_marron.webp"/>
+          <avis>
+
+          </avis>
+        </article>
+        <article id="a_7859" quantite="40">
+          <nom>Sandales de randonnée - NH100 - Homme</nom>
+          <marque>QUECHUA</marque>
+          <prix>15</prix>
+          <couleurs>
+            <couleur nom="marron"/>
+          </couleurs>
+          <image src="./images/a_7859_marron.webp"/>
+          <avis>
+            <commentaire id="c_1260">Bon produit</commentaire>
+            <commentaire id="c_1261">ampoule sur le dessus des orteils :mauvaise finition</commentaire>
+          </avis>
+        </article>
+      </type>
+      <type nom="bottes">
+        <article id="a_4578" quantite="70">
+          <nom>BOTTES LEGERES SOUPLES PVC GLENARM 100</nom>
+          <marque>SOLOGNAC</marque>
+          <prix>12</prix>
+          <couleurs>
+            <couleur nom="vert"/>
+          </couleurs>
+          <image src="./images/a_4578_vert.webp"/>
+          <avis>
+            <commentaire id="c_1263">Bon rapport qualité/prix, mais elles ne font qu'une petite année.</commentaire>
+            <commentaire id="c_1264">achetées depuis peu, mais je pense bien pour une utilisation ponctuelle
+            </commentaire>
+          </avis>
+        </article>
+        <article id="a_4559" quantite="50">
+          <nom>Bottes équitation adulte SCHOOLING noir</nom>
+          <marque>FOUGANZA</marque>
+          <prix>17</prix>
+          <couleurs>
+            <couleur nom="noir"/>
+          </couleurs>
+          <image src="./images/a_4559_noir.webp"/>
+          <avis>
+            <commentaire id="c_1265">Très bien et confort excellent</commentaire>
+            <commentaire id="c_1266">Rempli parfaitement ça fonction pour un premier prix c'est très bien</commentaire>
+            <commentaire id="c_1267">
+              Achetées pour ma fille de 16ans, elle semble contente de ses bottes. Facilité
+              d'entretien, possibilité de mettre une paire de grosses chaussettes pour ne pas avoir froid
+            </commentaire>
+          </avis>
+        </article>
+      </type>
+      <type nom="crampons">
+        <article id="a_7864" quantite="78">
+          <nom>Chaussure football Copa Mundial FG ADIDAS adulte</nom>
+          <marque>ADIDAS</marque>
+          <prix>90</prix>
+          <couleurs>
+            <couleur nom="noir"/>
+          </couleurs>
+          <image src="./images/a_7864_noir.webp"/>
+          <avis>
+            <commentaire id="c_1270">Toujours aussi agréable et performante.</commentaire>
+            <commentaire id="c_1271">Top du top</commentaire>
+          </avis>
+        </article>
+      </type>
+    </categorie>
+  </rayon>
+  <rayon nom="femme">
+    <categorie nom="vetements">
+      <type nom="pantalons">
+        <article id="a_156" quantite="30">
+          <nom>PANTALON JOGGING LÉGER FITNESS COUPE DROITE</nom>
+          <marque>NYAMBA</marque>
+          <prix>12</prix>
+          <couleurs>
+            <couleur nom="noir"/>
+          </couleurs>
+          <image src="./images/a_156_noir.jpg"/>
+          <avis>
+            <commentaire id="c_145">produit de qualité</commentaire>
+            <commentaire id="c_245">très bien</commentaire>
+          </avis>
+        </article>
+        <article id="a_201" quantite="58">
+          <nom>PANTALON YOGA DOUX FEMME ECO-CONCU</nom>
+          <marque>KIMJALY</marque>
+          <prix>20</prix>
+          <couleurs>
+            <couleur nom="noir"/>
+            <couleur nom="gris-foncé"/>
+          </couleurs>
+          <image src="./images/a_201_noir.jpg"/>
+          <avis>
+            <commentaire id="c_158">beau produit</commentaire>
+          </avis>
+        </article>
+        <article id="a_66" quantite="99">
+          <nom>PANTALON DE JOGGING RUNNING CHAUD FEMME - WARM</nom>
+          <marque>KALENJY</marque>
+          <prix>20</prix>
+          <promotion>14</promotion>
+          <couleurs>
+            <couleur nom="noir"/>
+            <couleur nom="bleu-cosmos"/>
+          </couleurs>
+          <image src="./images/a_66_noir.jpg"/>
+          <avis>
+            <commentaire id="c_91">Peu mieux faire...</commentaire>
+            <commentaire id="c_72">Genial ce jogging !</commentaire>
+          </avis>
+        </article>
+      </type>
+      <type nom="tee-shirts">
+        <article id="a_785" quantite="46">
+          <nom>TEE SHIRT MANCHES LONGUES RUNNING FEMME KIPRUN SKINCARE</nom>
+          <marque>KIPRUN</marque>
+          <prix>20</prix>
+          <couleurs>
+            <couleur nom="noir"/>
+            <couleur nom="bleu-tempete/bleu-ardoise"/>
+          </couleurs>
+          <image src="./images/a_785_noir.jpg"/>
+          <avis>
+            <commentaire id="c_781">produit abordable</commentaire>
+            <commentaire id="c_892">satisfait de mon choix</commentaire>
+            <commentaire id="c_563">bien</commentaire>
+          </avis>
+        </article>
+        <article id="a_1223" quantite="14">
+          <nom>T-SHIRT MANCHES LONGUES YOGA DOUX COTON ISSU DE L'AGRICULTURE BIOLOGIQUE</nom>
+          <marque>KIMJALY</marque>
+          <prix>12</prix>
+          <couleurs>
+            <couleur nom="violet"/>
+            <couleur nom="bleu-gris"/>
+            <couleur nom="turquoise"/>
+          </couleurs>
+          <image src="./images/a_1223_violet.jpg"/>
+          <avis>
+            <commentaire id="c_751">produit de merde</commentaire>
+          </avis>
+        </article>
+      </type>
+      <type nom="ensembles_brassières_et_leggings">
+        <article id="a_2407" quantite="32">
+          <nom>BRASSIERE LONGUE SANS COUTURES YOGA DYNAMIQUE / SILVER</nom>
+          <marque>KIMJALY</marque>
+          <prix>15</prix>
+          <couleurs>
+            <couleur nom="noir"/>
+            <couleur nom="petrole-sombre/vert"/>
+            <couleur nom="cayenne/melon-chair"/>
+          </couleurs>
+          <image src="./images/a_2407_noir.jpg"/>
+          <avis>
+            <commentaire id="c_451">peu mieux faire</commentaire>
+            <commentaire id="c_782">trop beau</commentaire>
+            <commentaire id="c_453">satisfait</commentaire>
+            <commentaire id="c_4">boff</commentaire>
+            <commentaire id="c_5">bien</commentaire>
+          </avis>
+        </article>
+        <article id="a_225" quantite="32">
+          <nom>LEGGING 7/8 YOGA SANS COUTURES NOIR / ANTHRACITE</nom>
+          <marque>KIMJALY</marque>
+          <prix>15</prix>
+          <couleurs>
+            <couleur nom="noir/gris anthracite"/>
+            <couleur nom="petrole-sombre/bleu-paon"/>
+            <couleur nom="aubergine-foncé/violet"/>
+          </couleurs>
+          <image src="./images/a_225_noir.jpg"/>
+          <avis>
+            <commentaire id="c_1456">peu mieux faire</commentaire>
+            <commentaire id="c_4582">ça va</commentaire>
+            <commentaire id="c_3">satisfait</commentaire>
+            <commentaire id="c_4574">genial</commentaire>
+            <commentaire id="c_7895">bien</commentaire>
+          </avis>
+        </article>
+        <article id="a_3384" quantite="39">
+          <nom>BRASSIÈRE FITNESS MAINTIEN MODÉRÉ 500</nom>
+          <marque>DOMYOS</marque>
+          <prix>15</prix>
+          <promotion>10</promotion>
+          <couleurs>
+            <couleur nom="noir/cèdre-gelé"/>
+            <couleur nom="multicolore/noir"/>
+            <couleur nom="gris/noir"/>
+          </couleurs>
+          <image src="./images/a_3384_noir.jpg"/>
+          <avis>
+            <commentaire id="c_4551">bon produit</commentaire>
+          </avis>
+        </article>
+        <article id="a_847" quantite="39">
+          <nom>LEGGING TAILLE HAUTE FITNESS</nom>
+          <marque>DOMYOS</marque>
+          <prix>20</prix>
+          <promotion>15</promotion>
+          <couleurs>
+            <couleur nom="noir/cèdre-gelé"/>
+            <couleur nom="multicolore/noir"/>
+            <couleur nom="bleu-marine/bleu-noir"/>
+          </couleurs>
+          <image src="./images/a_847_noir.jpg"/>
+          <avis>
+            <commentaire id="c_7891">merci, trop contente</commentaire>
+            <commentaire id="c_2567">trop beau</commentaire>
+          </avis>
+        </article>
+      </type>
+      <type nom="sweats,pulls">
+        <article id="a_88001" quantite="20">
+          <nom>SWEAT POLAIRE RELAXATION YOGA FEMME CHINE</nom>
+          <marque>KIMJALY</marque>
+          <prix>20</prix>
+          <couleurs>
+            <couleur nom="bleu-marine/noir"/>
+            <couleur nom="rose-des-sables/grix-lune"/>
+          </couleurs>
+          <image src="./images/a_88001_bleu-marine.jpg"/>
+          <avis>
+            <commentaire id="c_4571">satisfait</commentaire>
+          </avis>
+        </article>
+        <article id="a_777" quantite="13">
+          <nom>SWEAT ZIPPÉ CAPUCHE CHAUD FITNESS</nom>
+          <marque>NYAMBA</marque>
+          <prix>17</prix>
+          <couleurs>
+            <couleur nom="noir"/>
+            <couleur nom="gris"/>
+            <couleur nom="quartz-rose"/>
+            <couleur nom="bleu-dorage"/>
+            <couleur nom="rose"/>
+          </couleurs>
+          <image src="./images/a_777_noir.jpg"/>
+          <avis>
+            <commentaire id="c_4661">satisfait</commentaire>
+            <commentaire id="c_4562">peu mieux faire</commentaire>
+            <commentaire id="c_7853">ça va</commentaire>
+          </avis>
+        </article>
+      </type>
+      <type nom="shorts">
+        <article id="a_1033" quantite="16">
+          <nom>SHORT 2 EN 1 FITNESS ANTI FROTTEMENT CUISSES</nom>
+          <marque>DOMYOS</marque>
+          <prix>12</prix>
+          <promotion>10</promotion>
+          <couleurs>
+            <couleur nom="noir/noir"/>
+            <couleur nom="bordeaux/betterave"/>
+          </couleurs>
+          <image src="./images/a_1033_noir.jpg"/>
+          <avis>
+            <commentaire id="c_7851">très bon produit</commentaire>
+            <commentaire id="c_7892">juste à ma taille</commentaire>
+            <commentaire id="c_7893">très bien</commentaire>
+          </avis>
+        </article>
+        <article id="a_02" quantite="15">
+          <nom>SHORT COTON FITNESS FIT+</nom>
+          <marque>NYAMBA</marque>
+          <prix>7</prix>
+          <couleurs>
+            <couleur nom="noir"/>
+          </couleurs>
+          <image src="./images/a_02_noir.jpg"/>
+          <avis>
+            <commentaire id="c_7861">super confortable</commentaire>
+            <commentaire id="c_1272">juste à ma taille</commentaire>
+            <commentaire id="c_7863">okay</commentaire>
+            <commentaire id="c_1244">c'est pas mal</commentaire>
+            <commentaire id="c_4565">moi je le trouve assez basique normal</commentaire>
+            <commentaire id="c_4566">très bien</commentaire>
+          </avis>
+        </article>
+      </type>
+    </categorie>
+    <categorie nom="chaussant">
+      <type nom="baskets">
+        <article id="a_29600" quantite="106">
+          <nom>CHAUSSURES VULCANISÉES DE SKATEBOARD ADULTE VULCA 500 II</nom>
+          <marque>OXELO</marque>
+          <prix>39</prix>
+          <couleurs>
+            <couleur nom="noir"/>
+            <couleur nom="blanc-glacier"/>
+            <couleur nom="turquoise"/>
+          </couleurs>
+          <image src="./images/a_29600_noir.jpg"/>
+          <avis>
+            <commentaire id="c_7841">belle paire</commentaire>
+            <commentaire id="c_1872">ce n'est pas le rendu que j'attendais</commentaire>
+          </avis>
+        </article>
+        <article id="a_11115" quantite="94">
+          <nom>CHAUSSURES LOISIRS ENFANT GAME STEP GS</nom>
+          <marque>DIADORA</marque>
+          <prix>40</prix>
+          <promotion>24</promotion>
+          <couleurs>
+            <couleur nom="bleu"/>
+            <couleur nom="rose"/>
+          </couleurs>
+          <image src="./images/a_11115_bleu.jpg"/>
+          <avis>
+            <commentaire id="c_4591">boff</commentaire>
+          </avis>
+        </article>
+        <article id="a_3303" quantite="18">
+          <nom>CHAUSSURES DE BASKETBALL SE900 NBA LOS ANGELES LAKERS</nom>
+          <marque>TARMAK</marque>
+          <prix>95</prix>
+          <couleurs>
+            <couleur nom="noir"/>
+            <couleur nom="violet"/>
+            <couleur nom="rose"/>
+            <couleur nom="bleu"/>
+            <couleur nom="rouge"/>
+          </couleurs>
+          <image src="./images/a_3303_noir.jpg"/>
+          <avis>
+            <commentaire id="c_7821">belle paire</commentaire>
+            <commentaire id="c_7812">bien, je les déjà enfilées</commentaire>
+            <commentaire id="c_1283">boff</commentaire>
+          </avis>
+        </article>
+      </type>
+      <type nom="chaussettes">
+        <article id="a_150" quantite="505">
+          <nom>CHAUSSETTES DE TENNIS HAUTES ARTENGO RS 500 CHINE LOT DE 3</nom>
+          <marque>ARTENGO</marque>
+          <prix>4</prix>
+          <couleurs>
+            <couleur nom="noir"/>
+            <couleur nom="gris-carbone/sarcelle/bleu-antique"/>
+            <couleur nom="blanc-glacier"/>
+            <couleur nom="bleu-gris"/>
+            <couleur nom="bleu-noir"/>
+          </couleurs>
+          <image src="./images/a_150_noir.jpg"/>
+          <avis>
+            <commentaire id="c_7831">bon produit</commentaire>
+            <commentaire id="c_1232">merci, très satisfaite</commentaire>
+            <commentaire id="c_783">bien, normal quoi</commentaire>
+            <commentaire id="c_456">ça va</commentaire>
+          </avis>
+        </article>
+      </type>
+      <type nom="bottes,boots,bottines">
+        <article id="a_512" quantite="26">
+          <nom>BOTTES DE NEIGE CHAUDES IMPERMÉABLES - SH100 X-WARM - MID FEMME</nom>
+          <marque>QUECHUA</marque>
+          <prix>35</prix>
+          <couleurs>
+            <couleur nom="noir"/>
+          </couleurs>
+          <image src="./images/a_512_noir.jpg"/>
+          <avis>
+            <commentaire id="c_1452">elles tiennent bien chaud</commentaire>
+            <commentaire id="c_2741">satisfaite</commentaire>
+          </avis>
+        </article>
+        <article id="a_60103" quantite="09">
+          <nom>BOTTILLONS CHAUDS PVC FEMME</nom>
+          <marque>SOLOGNAC</marque>
+          <prix>20</prix>
+          <couleurs>
+            <couleur nom="noir"/>
+          </couleurs>
+          <image src="./images/a_60103_noir.jpg"/>
+          <avis>
+            <commentaire id="c_1784">produit de merde</commentaire>
+            <commentaire id="c_2785">franchement c'est de l'arnaque</commentaire>
+            <commentaire id="c_3784">vraiment déçu de la qualité</commentaire>
+            <commentaire id="c_4789">c'est n'importe quoi</commentaire>
+          </avis>
+        </article>
+        <article id="a_16987" quantite="07">
+          <nom>BOTTILLONS LEGER PVC INVERNESS 100 FEMME</nom>
+          <marque>SOLOGNAC</marque>
+          <prix>13</prix>
+          <couleurs>
+            <couleur nom="noir/gris-vert"/>
+            <couleur nom="vert/gris-vert"/>
+            <couleur nom="aubergine/gris-vert"/>
+            <couleur nom="rouge-grenat/gris-vert"/>
+          </couleurs>
+          <image src="./images/a_16987_noir.jpg"/>
+          <avis>
+            <commentaire id="c_1852">okay</commentaire>
+          </avis>
+        </article>
+      </type>
+    </categorie>
+  </rayon>
+  <rayon nom="enfant">
+    <categorie nom="vetements">
+      <type nom="vestes">
+        <article id="a_13" quantite="10">
+          <nom>DOUDOUNE DE SKI ENFANT TRES CHAUDE ET IMPERMEABLE 580 WARM GRISE ET CORAIL</nom>
+          <marque>WEDZE</marque>
+          <prix>123</prix>
+          <couleurs>
+            <couleur nom="noir"/>
+            <couleur nom="bleu"/>
+            <couleur nom="gris"/>
+          </couleurs>
+          <image src="./images/a_13_noir.jpg"/>
+          <avis>
+            <commentaire id="c_1933">faites ce promotions pour nous faciliter l'achat</commentaire>
+          </avis>
+        </article>
+      </type>
+      <type nom="sous-vetements thermiques">
+        <article id="a_15" quantite="8">
+          <nom>COLLANT KEEPDRY 100 CHAUD ENFANT NOIR</nom>
+          <marque>KIPSTA</marque>
+          <prix>11</prix>
+          <promotion>7</promotion>
+          <couleurs>
+            <couleur nom="noir"/>
+          </couleurs>
+          <image src="./images/a_15_noir.jpg"/>
+          <avis>
+            <commentaire id="c_1321">produit de merde</commentaire>
+            <commentaire id="c_2126">meilleur article de protection contre le froid pour les enfants</commentaire>
+            <commentaire id="c_3781">Mes enfants sont très à l'aise dans ce collant et je suis satisfaits</commentaire>
+          </avis>
+        </article>
+        <article id="a_17" quantite="70">
+          <nom>SOUS-VÊTEMENT DE SKI ENFANT 100 HAUT BLANC</nom>
+          <marque>WEDZE</marque>
+          <prix>5</prix>
+          <couleurs>
+            <couleur nom="blanc"/>
+          </couleurs>
+          <image src="./images/a_17_blanc.webp"/>
+          <avis>
+            <commentaire id="c_1789">Degoutant cette couleur</commentaire>
+            <commentaire id="c_2789">article aux choix des enfants</commentaire>
+          </avis>
+        </article>
+      </type>
+      <type nom="polaires">
+        <article id="a_19" quantite="90">
+          <nom>VESTE POLAIRE CHAUDE RÉVERSIBLE ENFANT SAILING 500 NAVY ROSE</nom>
+          <marque>TRIBORD</marque>
+          <prix>20</prix>
+          <couleurs>
+            <couleur nom="rose"/>
+            <couleur nom="noir"/>
+            <couleur nom="blanc"/>
+            <couleur nom="bleu"/>
+          </couleurs>
+          <image src="./images/a_19_rose.webp"/>
+          <avis>
+            <commentaire id="c_1458">Nase</commentaire>
+          </avis>
+        </article>
+        <article id="a_21" quantite="2">
+          <nom>POLAIRE DE RANDONNÉE - MH100 ROSE - ENFANT 2-6 ANS</nom>
+          <marque>QUECHIA</marque>
+          <prix>6</prix>
+          <couleurs>
+            <couleur nom="corail"/>
+            <couleur nom="rouge"/>
+            <couleur nom="vert"/>
+          </couleurs>
+          <image src="./images/a_21_corail.jpg"/>
+          <avis/>
+        </article>
+        <article id="a_23" quantite="4">
+          <nom>GILET POLAIRE - MH150 BLEU GRIS - ENFANT 7-15 ANS</nom>
+          <marque>QUECHIA</marque>
+          <prix>10</prix>
+          <couleurs>
+            <couleur nom="bleu_gris"/>
+          </couleurs>
+          <image src="./images/a_23_bleu_gris.jpg"/>
+          <avis>
+            <commentaire id="c_1785">l'un des vos meilleurs produits</commentaire>
+          </avis>
+        </article>
+      </type>
+    </categorie>
+    <categorie nom="chaussants">
+      <type nom="bottes">
+        <article id="a_25" quantite="12">
+          <nom>BOTTES DE NEIGE CHAUDES IMPERMÉABLES DE RANDONNÉE - SH100 X-WARM - ENFANT 24-38</nom>
+          <marque>QUECHUA</marque>
+          <prix>24</prix>
+          <promotion>12</promotion>
+          <couleurs>
+            <couleur nom="noir"/>
+            <couleur nom="bleu"/>
+          </couleurs>
+          <image src="./images/a_25_noir.jpg"/>
+          <avis>
+            <commentaire id="c_1486">du coups merci pour la promotion</commentaire>
+            <commentaire id="c_2177">la promotion est satisfaitante</commentaire>
+            <commentaire id="c_3955">merci pour la reduction</commentaire>
+            <commentaire id="c_4466">à ca prix avec la bonne qualité, merci</commentaire>
+          </avis>
+        </article>
+        <article id="a_27" quantite="23">
+          <nom>CHAUSSURE DE RANDONNÉE TERREX SNOW CF WINTER</nom>
+          <marque>ADIDDAS</marque>
+          <prix>90</prix>
+          <promotion>65</promotion>
+          <couleurs>
+            <couleur nom="noir"/>
+            <couleur nom="bleu"/>
+          </couleurs>
+          <image src="./images/a_27_noir.jpg"/>
+          <avis>
+            <commentaire id="c_1778">Mesures très petites</commentaire>
+          </avis>
+        </article>
+      </type>
+    </categorie>
+    <categorie nom="materiels">
+      <type nom="activités externes">
+        <article id="a_29" quantite="40">
+          <nom>RECONDITIONNÉ - VÉLO DE VILLE ÉLECTRIQUE ELOPS 120 E - TRÈS BON</nom>
+          <marque>VTWIN</marque>
+          <prix>765</prix>
+          <couleurs>
+            <couleur nom="noir"/>
+            <couleur nom="rouge"/>
+          </couleurs>
+          <image src="./images/a_29_noir.jpg"/>
+          <avis>
+            <commentaire id="c_1783">recondionnement à decathlon, c'est du nouveau</commentaire>
+          </avis>
+        </article>
+        <article id="a_31" quantite="2">
+          <nom>TROTTINETTE ENFANT MID5 AVEC FREIN AU GUIDON ET SUSPENSION GRAPHISME INDIAN</nom>
+          <marque>OXELO</marque>
+          <prix>34</prix>
+          <couleurs>
+            <couleur nom="pourpre"/>
+            <couleur nom="corail"/>
+            <couleur nom="blanc"/>
+          </couleurs>
+          <image src="./images/a_31_pourpe.jpg"/>
+          <avis>
+            <commentaire id="c_1744">Il faut donner aussi le poids que supporte la charge</commentaire>
+            <commentaire id="c_2784">Est ce qu'il n y'a un délai de garantie pour les bien d'ocasion</commentaire>
+          </avis>
+        </article>
+      </type>
+      <type nom="activités hiver">
+        <article id="a_33" quantite="15">
+          <nom>LUGE PLATEAU ROUGE ENFANT AVEC FREINS</nom>
+          <marque>EDA</marque>
+          <prix>15</prix>
+          <couleurs>
+            <couleur nom="rouge"/>
+          </couleurs>
+          <image src="./images/a_33_rouge.jpg"/>
+          <avis>
+            <commentaire id="c_1745">ça été un bon cadeau pour mon enfant</commentaire>
+            <commentaire id="c_2856">Degoutant cette couleur</commentaire>
+            <commentaire id="c_3965">article bien, aux choix des enfants</commentaire>
+          </avis>
+        </article>
+      </type>
+    </categorie>
+  </rayon>
+</boutique>

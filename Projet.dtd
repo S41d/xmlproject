@@ -1,0 +1,52 @@
+<?xml encoding="UTF-8"?>
+    <!ELEMENT boutique (rayon)+>
+    <!ATTLIST boutique>
+
+    <!ELEMENT rayon (categorie)+>
+    <!ATTLIST rayon
+        nom (homme|femme|enfant) #REQUIRED>
+
+    <!ELEMENT categorie (type)+>
+    <!ATTLIST categorie
+        nom CDATA #REQUIRED>
+
+    <!ELEMENT type (article)+>
+    <!ATTLIST type
+        nom CDATA #REQUIRED>
+
+    <!ELEMENT article (nom,marque,prix,promotion?,couleurs,image,avis)>
+    <!ATTLIST article
+        id ID #REQUIRED
+        quantite CDATA #REQUIRED>
+
+    <!ELEMENT nom (#PCDATA)>
+    <!ATTLIST nom
+        quantite CDATA #IMPLIED>
+
+    <!ELEMENT marque (#PCDATA)>
+    <!ATTLIST marque
+        quantite CDATA #IMPLIED>
+
+    <!ELEMENT prix (#PCDATA)>
+    <!ATTLIST prix>
+
+    <!ELEMENT promotion (#PCDATA)>
+    <!ATTLIST promotion>
+
+    <!ELEMENT couleurs (couleur)+>
+    <!ATTLIST couleurs>
+
+    <!ELEMENT couleur EMPTY>
+    <!ATTLIST couleur
+        nom CDATA #REQUIRED>
+
+    <!ELEMENT image EMPTY>
+    <!ATTLIST image
+        src CDATA #REQUIRED>
+
+    <!ELEMENT avis (commentaire)*>
+    <!ATTLIST avis>
+
+    <!ELEMENT commentaire (#PCDATA)>
+    <!ATTLIST commentaire
+        id ID #REQUIRED>
