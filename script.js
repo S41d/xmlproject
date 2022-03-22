@@ -42,6 +42,10 @@ function xpathRequest(file, searchTerm) {
         if (articles.snapshotItem(i).children.length === 7) { // si l'article est en promotion l'emplacement de la balise img change
             imgPos = 5
         }
+        if (articles.snapshotItem(i).children[imgPos] == null) {
+            console.log(articles.snapshotItem(i))
+        }
+        console.log(articles.snapshotItem(i))
         htmlString += `
           <div class="article">
             <img class="img-article" src="${ articles.snapshotItem(i).children[imgPos].getAttribute("src") }" alt="">

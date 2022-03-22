@@ -127,7 +127,7 @@
           <couleurs>
             <couleur nom="noir"/>
           </couleurs>
-          <image src="./images/a_9866_noir.webp"/>
+          <image src="./images/a_9566_noir.webp"/>
           <avis>
             <commentaire id="c_1241">bon rapport qualité prix confortable et robuste, bien chaud j'en suis vraiment
               contente
@@ -791,7 +791,7 @@
             <couleur nom="corail"/>
             <couleur nom="blanc"/>
           </couleurs>
-          <image src="./images/a_31_pourpe.jpg"/>
+          <image src="./images/a_31_pourpe.webp"/>
           <avis>
             <commentaire id="c_1744">Il faut donner aussi le poids que supporte la charge</commentaire>
             <commentaire id="c_2784">Est ce qu'il n y'a un délai de garantie pour les bien d'ocasion</commentaire>
