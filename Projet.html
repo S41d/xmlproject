@@ -1,0 +1,72 @@
+<!DOCTYPE html
+    PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html lang="fr">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <style type="text/css">
+      input[type="text"] {
+          height: 38px;
+          padding: 6px 10px;
+          width: 100%;
+          background-color: #fff;
+          border: 1px solid #D1D1D1;
+          border-radius: 4px;
+          box-shadow: none;
+          box-sizing: border-box;
+          margin: 5px;
+      }
+
+      .container {
+          position: relative;
+          width: 80%;
+          max-width: 960px;
+          margin: 0 auto;
+          padding: 0 20px;
+          box-sizing: border-box;
+      }
+
+      .article {
+          position: relative;
+          width: 100%;
+          padding: 20px 20px;
+          margin: 5px;
+          border-radius: 20px;
+          color: white;
+          background-color: #616161;
+          display: flex;
+      }
+
+      .img-article {
+          max-height: 100px;
+          max-width: 100px;
+      }
+
+      .text-article {
+          margin: 20px;
+      }
+  </style>
+  <title>La Boutique Sportive</title>
+  <script src="script.js" type="application/javascript" defer></script>
+</head>
+<body>
+<div class="container">
+  <div>
+    <label>
+      Recherche article
+      <input type="text" id="search">
+    </label>
+    filtrer par:
+    <label>
+      Nom article
+      <input type="checkbox" id="filterNom">
+    </label>
+    <label>
+      Marque
+      <input type="checkbox" id="filterMarque">
+    </label>
+  </div>
+  <br>
+  <div id="results"></div>
+</div>
+</body>
+</html>
