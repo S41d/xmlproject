@@ -9,7 +9,7 @@
 Ce projet est réalisé par:
 
 - BAH Boubacar Aissata
-- Lica
+- N’GUESSAN MOYE Oka
 - ZUHAIR Saïd Mohammad
 
 Notre base complète de données en **xml** se trouve dans le ficher [Projet.xml](Projet.xml), 
