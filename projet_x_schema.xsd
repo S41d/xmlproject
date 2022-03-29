@@ -1,86 +1,68 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"> 
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
     <xs:element name="boutique">
         <xs:complexType>
             <xs:sequence>
-                <xs:element ref="rayon" minOccurs="1" maxOccurs="unbounded"/>
+                <xs:element name="rayon" type="rayon" maxOccurs="unbounded"/>
             </xs:sequence>
         </xs:complexType>
     </xs:element>
-    <xs:element name="rayon">
-        <xs:complexType>
-            <xs:sequence>
-                <xs:element ref="categorie" minOccurs="1" maxOccurs="unbounded"/>
-            </xs:sequence>
-            <xs:attribute name="nom" type="xs:NCName" use="required"/>
-        </xs:complexType>
-    </xs:element>
-    <xs:element name="categorie">
-        <xs:complexType>
-            <xs:sequence>
-                <xs:element ref="type" minOccurs="1" maxOccurs="unbounded"/>
-            </xs:sequence>
-            <xs:attribute name="nom" type="xs:NCName" use="required"/>
-        </xs:complexType>
-    </xs:element>
-    <xs:element name="type">
-        <xs:complexType>
-            <xs:sequence>
-                <xs:element ref="article" minOccurs="1" maxOccurs="unbounded"/>
-            </xs:sequence>
-            <xs:attribute name="nom" type="xs:string" use="required"/>
-        </xs:complexType>
-    </xs:element>
-    <xs:element name="article">
-        <xs:complexType>
-            <xs:sequence>
-                <xs:element ref="nom" minOccurs="1" maxOccurs="unbounded"/>
-                <xs:element ref="marque" minOccurs="1" maxOccurs="unbounded"/>
-                <xs:element ref="prix" minOccurs="1" maxOccurs="unbounded"/>
-                <xs:element ref="promotion" minOccurs="0"/>
-                <xs:element ref="couleurs" minOccurs="1" maxOccurs="unbounded"/>
-                <xs:element ref="image" minOccurs="1" maxOccurs="unbounded"/>
-                <xs:element ref="avis" minOccurs="0" maxOccurs="unbounded"/>                
-            </xs:sequence>
-            <xs:attribute name="id" type="xs:ID" use="required"/>
-            <xs:attribute name="quantite" type="xs:integer" use="required"/>
-        </xs:complexType>
-    </xs:element>
-    <xs:element name="nom" type="xs:string"/>
-    <xs:element name="marque" type="xs:string"/>
-    <xs:element name="prix" type="xs:string"/>
-    <xs:element name="promotion" type="xs:string"/>
-    <xs:element name="couleurs">
-        <xs:complexType>
-            <xs:sequence>
-                <xs:element ref="couleur" minOccurs="1" maxOccurs="unbounded"/>
-            </xs:sequence>
-        </xs:complexType>
-    </xs:element>
-    <xs:element name="image">
-        <xs:complexType>
-            <xs:attribute name="src" type="xs:string"/>
-        </xs:complexType>
-    </xs:element>
-    <xs:element name="avis">
-        <xs:complexType>
-            <xs:sequence>
-                <xs:element ref="commentaire" minOccurs="0" maxOccurs="unbounded"/>
-            </xs:sequence>
-        </xs:complexType>
-    </xs:element>
-    <xs:element name="couleur">
-        <xs:complexType>
-            <xs:attribute name="nom" type="xs:string" use="required"></xs:attribute>
-        </xs:complexType>
-    </xs:element>
-    <xs:element name="commentaire">
-        <xs:complexType>
-            <xs:simpleContent>
-                <xs:extension base="xs:string">
-                    <xs:attribute name="id" type="xs:NCName" use="required"></xs:attribute>
-                </xs:extension>
-            </xs:simpleContent>
-        </xs:complexType>
-    </xs:element>
+    <xs:complexType name="rayon">
+        <xs:sequence>
+            <xs:element name="categorie" type="categorie" maxOccurs="unbounded"/>
+        </xs:sequence>
+        <xs:attribute name="nom" type="xs:NCName" use="required"/>
+    </xs:complexType>
+    <xs:complexType name="categorie">
+        <xs:sequence>
+            <xs:element name="type" type="type" maxOccurs="unbounded"/>
+        </xs:sequence>
+        <xs:attribute name="nom" type="xs:NCName" use="required"/>
+    </xs:complexType>
+    <xs:complexType name="type">
+        <xs:sequence>
+            <xs:element name="article" type="article" maxOccurs="unbounded"/>
+        </xs:sequence>
+        <xs:attribute name="nom" type="xs:string" use="required"/>
+    </xs:complexType>
+    <xs:complexType name="article">
+        <xs:sequence>
+            <xs:element name="nom" type="xs:string"/>
+            <xs:element name="marque" type="xs:string"/>
+            <xs:element name="prix" type="xs:integer" />
+            <xs:element name="promotion" type="xs:integer" minOccurs="0"/>
+            <xs:element name="couleurs" type="couleurs"/>
+            <xs:element name="image" type="image"/>
+            <xs:element name="avis" type="avis"/>
+        </xs:sequence>
+        <xs:attribute name="id" type="xs:ID" use="required"/>
+        <xs:attribute name="quantite" type="xs:integer" use="required"/>
+    </xs:complexType>
+    <xs:complexType name="couleurs">
+        <xs:sequence>
+            <xs:element name="couleur" type="couleur" maxOccurs="unbounded"/>
+        </xs:sequence>
+    </xs:complexType>
+    <xs:complexType name="image">
+        <xs:attribute name="src" type="xs:string"/>
+    </xs:complexType>
+    <xs:complexType name="avis">
+        <xs:sequence>
+            <xs:element name="commentaire" type="commentaire" minOccurs="0" maxOccurs="unbounded"/>
+        </xs:sequence>
+    </xs:complexType>
+    <xs:complexType name="couleur">
+        <xs:simpleContent>
+            <xs:extension base="xs:string">
+                <xs:attribute name="nomCSS" type="xs:string" use="required"/>
+            </xs:extension>
+        </xs:simpleContent>
+    </xs:complexType>
+    <xs:complexType name="commentaire">
+        <xs:simpleContent>
+            <xs:extension base="xs:string">
+                <xs:attribute name="id" type="xs:NCName" use="required"/>
+            </xs:extension>
+        </xs:simpleContent>
+    </xs:complexType>
 </xs:schema>

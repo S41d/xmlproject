@@ -10,10 +10,10 @@
           <marque>QUECHUA</marque>
           <prix>35</prix>
           <couleurs>
-            <couleur nom="noir"/>
-            <couleur nom="bleu"/>
-            <couleur nom="gris"/>
-            <couleur nom="bleu-foncé"/>
+            <couleur nomCSS="black">noir</couleur>
+            <couleur nomCSS="blue">bleu</couleur>
+            <couleur nomCSS="gray">gris</couleur>
+            <couleur nomCSS="darkblue">blue-foncé</couleur>
           </couleurs>
           <image src="./images/a_1564_noir.webp"/>
           <avis>
@@ -25,8 +25,8 @@
           <marque>QUECHUA</marque>
           <prix>9</prix>
           <couleurs>
-            <couleur nom="noir"/>
-            <couleur nom="gris"/>
+            <couleur nomCSS="black">noir</couleur>
+            <couleur nomCSS="gray">gris</couleur>
           </couleurs>
           <image src="./images/a_1254_noir.webp"/>
           <avis>
@@ -40,8 +40,8 @@
           <marque>NYAMBA</marque>
           <prix>10</prix>
           <couleurs>
-            <couleur nom="noir"/>
-            <couleur nom="gris"/>
+            <couleur nomCSS="black">noir</couleur>
+            <couleur nomCSS="gray">gris</couleur>
           </couleurs>
           <image src="./images/a_4564_noir.webp"/>
           <avis>
@@ -54,7 +54,7 @@
           <prix>40</prix>
           <promotion>25</promotion>
           <couleurs>
-            <couleur nom="noir"/>
+            <couleur nomCSS="black">noir</couleur>
           </couleurs>
           <image src="./images/a_8565_noir.webp"/>
           <avis>
@@ -68,8 +68,8 @@
           <marque>FORCLAZ</marque>
           <prix>30</prix>
           <couleurs>
-            <couleur nom="gris"/>
-            <couleur nom="marron"/>
+            <couleur nomCSS="gray">gris</couleur>
+            <couleur nomCSS="brown">marron</couleur>
           </couleurs>
           <image src="./images/a_4668_gris.webp"/>
           <avis>
@@ -81,8 +81,8 @@
           <marque>QUECHUA</marque>
           <prix>50</prix>
           <couleurs>
-            <couleur nom="noir"/>
-            <couleur nom="gris"/>
+            <couleur nomCSS="black">noir</couleur>
+            <couleur nomCSS="gray">gris</couleur>
           </couleurs>
           <image src="./images/a_7589_noir.webp"/>
           <avis>
@@ -98,7 +98,7 @@
           <marque>WEDZE</marque>
           <prix>6</prix>
           <couleurs>
-            <couleur nom="noir"/>
+            <couleur nomCSS="black">noir</couleur>
           </couleurs>
           <image src="./images/a_7895_noir.webp"/>
           <avis>
@@ -111,7 +111,7 @@
           <marque>WEDZE</marque>
           <prix>13</prix>
           <couleurs>
-            <couleur nom="noir"/>
+            <couleur nomCSS="black">noir</couleur>
           </couleurs>
           <image src="./images/a_5785_noir.webp"/>
           <avis>
@@ -125,7 +125,7 @@
           <marque>WEDZE</marque>
           <prix>13</prix>
           <couleurs>
-            <couleur nom="noir"/>
+            <couleur nomCSS="black">noir</couleur>
           </couleurs>
           <image src="./images/a_9566_noir.webp"/>
           <avis>
@@ -142,9 +142,9 @@
           <marque>NYAMBA</marque>
           <prix>3</prix>
           <couleurs>
-            <couleur nom="noir"/>
-            <couleur nom="gris"/>
-            <couleur nom="bleu-noir"/>
+            <couleur nomCSS="black">noir</couleur>
+            <couleur nomCSS="gray">gris</couleur>
+            <couleur nomCSS="darkblue">bleu-noir</couleur>
           </couleurs>
           <image src="./images/a_7894_noir.webp"/>
           <avis>
@@ -161,10 +161,10 @@
           <marque>QUECHUA</marque>
           <prix>50</prix>
           <couleurs>
-            <couleur nom="vert"/>
-            <couleur nom="beige"/>
-            <couleur nom="gris"/>
-            <couleur nom="bleu"/>
+            <couleur nomCSS="green">vert</couleur>
+            <couleur nomCSS="beige">beige</couleur>
+            <couleur nomCSS="gray">gris</couleur>
+            <couleur nomCSS="blue">bleu</couleur>
           </couleurs>
           <image src="./images/a_4566_vert.webp"/>
           <avis>
@@ -177,7 +177,7 @@
           <marque>MEINDL</marque>
           <prix>120</prix>
           <couleurs>
-            <couleur nom="marron"/>
+            <couleur nomCSS="brown">marron</couleur>
           </couleurs>
           <image src="./images/a_5578_marron.webp"/>
           <avis>
@@ -195,7 +195,7 @@
           <marque>ADIDAS</marque>
           <prix>60</prix>
           <couleurs>
-            <couleur nom="gris"/>
+            <couleur nomCSS="gray">gris</couleur>
           </couleurs>
           <image src="./images/a_454_gris.webp"/>
           <avis>
@@ -207,10 +207,10 @@
           <marque>KALENJI</marque>
           <prix>35</prix>
           <couleurs>
-            <couleur nom="noir"/>
-            <couleur nom="blanc"/>
-            <couleur nom="bleu-turquoise"/>
-            <couleur nom="vert"/>
+            <couleur nomCSS="black">noir</couleur>
+            <couleur nomCSS="white">blanc</couleur>
+            <couleur nomCSS="cyan">bleu-turquoise</couleur>
+            <couleur nomCSS="green">vert</couleur>
           </couleurs>
           <image src="./images/a_456_blanc.webp"/>
           <avis>
@@ -223,7 +223,7 @@
           <marque>NEWFEEL</marque>
           <prix>20</prix>
           <couleurs>
-            <couleur nom="noir"/>
+            <couleur nomCSS="black">noir</couleur>
           </couleurs>
           <image src="./images/a_4546_noir.webp"/>
           <avis>
@@ -239,7 +239,7 @@
           <prix>30</prix>
           <promotion>25</promotion>
           <couleurs>
-            <couleur nom="marron"/>
+            <couleur nomCSS="brown">marron</couleur>
           </couleurs>
           <image src="./images/a_4555_marron.webp"/>
           <avis>
@@ -251,7 +251,7 @@
           <marque>QUECHUA</marque>
           <prix>15</prix>
           <couleurs>
-            <couleur nom="marron"/>
+            <couleur nomCSS="brown">marron</couleur>
           </couleurs>
           <image src="./images/a_7859_marron.webp"/>
           <avis>
@@ -266,7 +266,7 @@
           <marque>SOLOGNAC</marque>
           <prix>12</prix>
           <couleurs>
-            <couleur nom="vert"/>
+            <couleur nomCSS="green">vert</couleur>
           </couleurs>
           <image src="./images/a_4578_vert.webp"/>
           <avis>
@@ -280,7 +280,7 @@
           <marque>FOUGANZA</marque>
           <prix>17</prix>
           <couleurs>
-            <couleur nom="noir"/>
+            <couleur nomCSS="black">noir</couleur>
           </couleurs>
           <image src="./images/a_4559_noir.webp"/>
           <avis>
@@ -299,7 +299,7 @@
           <marque>ADIDAS</marque>
           <prix>90</prix>
           <couleurs>
-            <couleur nom="noir"/>
+            <couleur nomCSS="black">noir</couleur>
           </couleurs>
           <image src="./images/a_7864_noir.webp"/>
           <avis>
@@ -318,7 +318,7 @@
           <marque>NYAMBA</marque>
           <prix>12</prix>
           <couleurs>
-            <couleur nom="noir"/>
+            <couleur nomCSS="black">noir</couleur>
           </couleurs>
           <image src="./images/a_156_noir.jpg"/>
           <avis>
@@ -331,8 +331,8 @@
           <marque>KIMJALY</marque>
           <prix>20</prix>
           <couleurs>
-            <couleur nom="noir"/>
-            <couleur nom="gris-foncé"/>
+            <couleur nomCSS="black">noir</couleur>
+            <couleur nomCSS="darkgray">gris-foncé</couleur>
           </couleurs>
           <image src="./images/a_201_noir.jpg"/>
           <avis>
@@ -345,8 +345,8 @@
           <prix>20</prix>
           <promotion>14</promotion>
           <couleurs>
-            <couleur nom="noir"/>
-            <couleur nom="bleu-cosmos"/>
+            <couleur nomCSS="black">noir</couleur>
+            <couleur nomCSS="cyan">bleu-cosmos</couleur>
           </couleurs>
           <image src="./images/a_66_noir.jpg"/>
           <avis>
@@ -361,8 +361,8 @@
           <marque>KIPRUN</marque>
           <prix>20</prix>
           <couleurs>
-            <couleur nom="noir"/>
-            <couleur nom="bleu-tempete/bleu-ardoise"/>
+            <couleur nomCSS="black">noir</couleur>
+            <couleur nomCSS="blue">bleu-ardoise</couleur>
           </couleurs>
           <image src="./images/a_785_noir.jpg"/>
           <avis>
@@ -376,9 +376,9 @@
           <marque>KIMJALY</marque>
           <prix>12</prix>
           <couleurs>
-            <couleur nom="violet"/>
-            <couleur nom="bleu-gris"/>
-            <couleur nom="turquoise"/>
+            <couleur nomCSS="purple">violet</couleur>
+            <couleur nomCSS="lightblue">bleu-gris</couleur>
+            <couleur nomCSS="teal">turquoise</couleur>
           </couleurs>
           <image src="./images/a_1223_violet.jpg"/>
           <avis>
@@ -392,9 +392,9 @@
           <marque>KIMJALY</marque>
           <prix>15</prix>
           <couleurs>
-            <couleur nom="noir"/>
-            <couleur nom="petrole-sombre/vert"/>
-            <couleur nom="cayenne/melon-chair"/>
+            <couleur nomCSS="black">noir</couleur>
+            <couleur nomCSS="vert">vert</couleur>
+            <couleur nomCSS="red">cayenne</couleur>
           </couleurs>
           <image src="./images/a_2407_noir.jpg"/>
           <avis>
@@ -410,9 +410,9 @@
           <marque>KIMJALY</marque>
           <prix>15</prix>
           <couleurs>
-            <couleur nom="noir/gris anthracite"/>
-            <couleur nom="petrole-sombre/bleu-paon"/>
-            <couleur nom="aubergine-foncé/violet"/>
+            <couleur nomCSS="black">noir</couleur>
+            <couleur nomCSS="blue">bleu-paon</couleur>
+            <couleur nomCSS="purple">violet</couleur>
           </couleurs>
           <image src="./images/a_225_noir.jpg"/>
           <avis>
@@ -429,9 +429,8 @@
           <prix>15</prix>
           <promotion>10</promotion>
           <couleurs>
-            <couleur nom="noir/cèdre-gelé"/>
-            <couleur nom="multicolore/noir"/>
-            <couleur nom="gris/noir"/>
+            <couleur nomCSS="black">noir</couleur>
+            <couleur nomCSS="gray">gris</couleur>
           </couleurs>
           <image src="./images/a_3384_noir.jpg"/>
           <avis>
@@ -444,9 +443,8 @@
           <prix>20</prix>
           <promotion>15</promotion>
           <couleurs>
-            <couleur nom="noir/cèdre-gelé"/>
-            <couleur nom="multicolore/noir"/>
-            <couleur nom="bleu-marine/bleu-noir"/>
+            <couleur nomCSS="black">noir</couleur>
+            <couleur nomCSS="darkblue">bleu-noir</couleur>
           </couleurs>
           <image src="./images/a_847_noir.jpg"/>
           <avis>
@@ -461,8 +459,8 @@
           <marque>KIMJALY</marque>
           <prix>20</prix>
           <couleurs>
-            <couleur nom="bleu-marine/noir"/>
-            <couleur nom="rose-des-sables/grix-lune"/>
+            <couleur nomCSS="black">noir</couleur>
+            <couleur nomCSS="gray">grix-lune</couleur>
           </couleurs>
           <image src="./images/a_88001_bleu-marine.jpg"/>
           <avis>
@@ -474,11 +472,10 @@
           <marque>NYAMBA</marque>
           <prix>17</prix>
           <couleurs>
-            <couleur nom="noir"/>
-            <couleur nom="gris"/>
-            <couleur nom="quartz-rose"/>
-            <couleur nom="bleu-dorage"/>
-            <couleur nom="rose"/>
+            <couleur nomCSS="black">noir</couleur>
+            <couleur nomCSS="gray">gris</couleur>
+            <couleur nomCSS="pink">quartz-rose</couleur>
+            <couleur nomCSS="blue">bleu-dorage</couleur>
           </couleurs>
           <image src="./images/a_777_noir.jpg"/>
           <avis>
@@ -495,8 +492,8 @@
           <prix>12</prix>
           <promotion>10</promotion>
           <couleurs>
-            <couleur nom="noir/noir"/>
-            <couleur nom="bordeaux/betterave"/>
+            <couleur nomCSS="black">noir</couleur>
+            <couleur nomCSS="darkred">bordeaux</couleur>
           </couleurs>
           <image src="./images/a_1033_noir.jpg"/>
           <avis>
@@ -510,7 +507,7 @@
           <marque>NYAMBA</marque>
           <prix>7</prix>
           <couleurs>
-            <couleur nom="noir"/>
+            <couleur nomCSS="black">noir</couleur>
           </couleurs>
           <image src="./images/a_02_noir.jpg"/>
           <avis>
@@ -531,9 +528,9 @@
           <marque>OXELO</marque>
           <prix>39</prix>
           <couleurs>
-            <couleur nom="noir"/>
-            <couleur nom="blanc-glacier"/>
-            <couleur nom="turquoise"/>
+            <couleur nomCSS="black">noir</couleur>
+            <couleur nomCSS="white">blanc-glacier</couleur>
+            <couleur nomCSS="teal">turquoise</couleur>
           </couleurs>
           <image src="./images/a_29600_noir.jpg"/>
           <avis>
@@ -547,8 +544,8 @@
           <prix>40</prix>
           <promotion>24</promotion>
           <couleurs>
-            <couleur nom="bleu"/>
-            <couleur nom="rose"/>
+            <couleur nomCSS="blue">bleu</couleur>
+            <couleur nomCSS="pink">rose</couleur>
           </couleurs>
           <image src="./images/a_11115_bleu.jpg"/>
           <avis>
@@ -560,11 +557,11 @@
           <marque>TARMAK</marque>
           <prix>95</prix>
           <couleurs>
-            <couleur nom="noir"/>
-            <couleur nom="violet"/>
-            <couleur nom="rose"/>
-            <couleur nom="bleu"/>
-            <couleur nom="rouge"/>
+            <couleur nomCSS="black">noir</couleur>
+            <couleur nomCSS="purple">violet</couleur>
+            <couleur nomCSS="pink">rose</couleur>
+            <couleur nomCSS="blue">bleu</couleur>
+            <couleur nomCSS="red">rouge</couleur>
           </couleurs>
           <image src="./images/a_3303_noir.jpg"/>
           <avis>
@@ -580,11 +577,11 @@
           <marque>ARTENGO</marque>
           <prix>4</prix>
           <couleurs>
-            <couleur nom="noir"/>
-            <couleur nom="gris-carbone/sarcelle/bleu-antique"/>
-            <couleur nom="blanc-glacier"/>
-            <couleur nom="bleu-gris"/>
-            <couleur nom="bleu-noir"/>
+            <couleur nomCSS="black">noir</couleur>
+            <couleur nomCSS="blue">bleu-antique</couleur>
+            <couleur nomCSS="white">blanc-glacier</couleur>
+            <couleur nomCSS="lightblue">bleu-gris</couleur>
+            <couleur nomCSS="darkblue">bleu-noir</couleur>
           </couleurs>
           <image src="./images/a_150_noir.jpg"/>
           <avis>
@@ -601,7 +598,7 @@
           <marque>QUECHUA</marque>
           <prix>35</prix>
           <couleurs>
-            <couleur nom="noir"/>
+            <couleur nomCSS="black">noir</couleur>
           </couleurs>
           <image src="./images/a_512_noir.jpg"/>
           <avis>
@@ -614,7 +611,7 @@
           <marque>SOLOGNAC</marque>
           <prix>20</prix>
           <couleurs>
-            <couleur nom="noir"/>
+            <couleur nomCSS="black">noir</couleur>
           </couleurs>
           <image src="./images/a_60103_noir.jpg"/>
           <avis>
@@ -629,10 +626,8 @@
           <marque>SOLOGNAC</marque>
           <prix>13</prix>
           <couleurs>
-            <couleur nom="noir/gris-vert"/>
-            <couleur nom="vert/gris-vert"/>
-            <couleur nom="aubergine/gris-vert"/>
-            <couleur nom="rouge-grenat/gris-vert"/>
+            <couleur nomCSS="black">noir</couleur>
+            <couleur nomCSS="green">vert</couleur>
           </couleurs>
           <image src="./images/a_16987_noir.jpg"/>
           <avis>
@@ -650,13 +645,13 @@
           <marque>WEDZE</marque>
           <prix>123</prix>
           <couleurs>
-            <couleur nom="noir"/>
-            <couleur nom="bleu"/>
-            <couleur nom="gris"/>
+            <couleur nomCSS="black">noir</couleur>
+            <couleur nomCSS="blue">bleu</couleur>
+            <couleur nomCSS="gray">gris</couleur>
           </couleurs>
           <image src="./images/a_13_noir.jpg"/>
           <avis>
-            <commentaire id="c_1933">faites ce promotions pour nous faciliter l'achat</commentaire>
+            <commentaire id="c_1933">faites des promotions pour nous faciliter l'achat</commentaire>
           </avis>
         </article>
       </type>
@@ -667,7 +662,7 @@
           <prix>11</prix>
           <promotion>7</promotion>
           <couleurs>
-            <couleur nom="noir"/>
+            <couleur nomCSS="black">noir</couleur>
           </couleurs>
           <image src="./images/a_15_noir.jpg"/>
           <avis>
@@ -681,11 +676,11 @@
           <marque>WEDZE</marque>
           <prix>5</prix>
           <couleurs>
-            <couleur nom="blanc"/>
+            <couleur nomCSS="white">blanc</couleur>
           </couleurs>
           <image src="./images/a_17_blanc.webp"/>
           <avis>
-            <commentaire id="c_1789">Degoutant cette couleur</commentaire>
+            <commentaire id="c_1789">Dégoutant cette couleur</commentaire>
             <commentaire id="c_2789">article aux choix des enfants</commentaire>
           </avis>
         </article>
@@ -696,10 +691,10 @@
           <marque>TRIBORD</marque>
           <prix>20</prix>
           <couleurs>
-            <couleur nom="rose"/>
-            <couleur nom="noir"/>
-            <couleur nom="blanc"/>
-            <couleur nom="bleu"/>
+            <couleur nomCSS="pink">rose</couleur>
+            <couleur nomCSS="black">noir</couleur>
+            <couleur nomCSS="white">blanc</couleur>
+            <couleur nomCSS="blue">bleu</couleur>
           </couleurs>
           <image src="./images/a_19_rose.webp"/>
           <avis>
@@ -711,9 +706,9 @@
           <marque>QUECHIA</marque>
           <prix>6</prix>
           <couleurs>
-            <couleur nom="corail"/>
-            <couleur nom="rouge"/>
-            <couleur nom="vert"/>
+            <couleur nomCSS="salmon">corail</couleur>
+            <couleur nomCSS="red">rouge</couleur>
+            <couleur nomCSS="green">vert</couleur>
           </couleurs>
           <image src="./images/a_21_corail.jpg"/>
           <avis/>
@@ -723,11 +718,11 @@
           <marque>QUECHIA</marque>
           <prix>10</prix>
           <couleurs>
-            <couleur nom="bleu_gris"/>
+            <couleur nomCSS="lightblue">bleu_gris</couleur>
           </couleurs>
           <image src="./images/a_23_bleu_gris.jpg"/>
           <avis>
-            <commentaire id="c_1785">l'un des vos meilleurs produits</commentaire>
+            <commentaire id="c_1785">l'un de vos meilleurs produits</commentaire>
           </avis>
         </article>
       </type>
@@ -740,15 +735,15 @@
           <prix>24</prix>
           <promotion>12</promotion>
           <couleurs>
-            <couleur nom="noir"/>
-            <couleur nom="bleu"/>
+            <couleur nomCSS="black">noir</couleur>
+            <couleur nomCSS="blue">bleu</couleur>
           </couleurs>
           <image src="./images/a_25_noir.jpg"/>
           <avis>
             <commentaire id="c_1486">du coups merci pour la promotion</commentaire>
-            <commentaire id="c_2177">la promotion est satisfaitante</commentaire>
+            <commentaire id="c_2177">la promotion est satisfaisante</commentaire>
             <commentaire id="c_3955">merci pour la reduction</commentaire>
-            <commentaire id="c_4466">à ca prix avec la bonne qualité, merci</commentaire>
+            <commentaire id="c_4466">à ça prix avec la bonne qualité, merci</commentaire>
           </avis>
         </article>
         <article id="a_27" quantite="23">
@@ -757,8 +752,8 @@
           <prix>90</prix>
           <promotion>65</promotion>
           <couleurs>
-            <couleur nom="noir"/>
-            <couleur nom="bleu"/>
+            <couleur nomCSS="black">noir</couleur>
+            <couleur nomCSS="blue">bleu</couleur>
           </couleurs>
           <image src="./images/a_27_noir.jpg"/>
           <avis>
@@ -774,12 +769,12 @@
           <marque>VTWIN</marque>
           <prix>765</prix>
           <couleurs>
-            <couleur nom="noir"/>
-            <couleur nom="rouge"/>
+            <couleur nomCSS="black">noir</couleur>
+            <couleur nomCSS="red">rouge</couleur>
           </couleurs>
           <image src="./images/a_29_noir.jpg"/>
           <avis>
-            <commentaire id="c_1783">recondionnement à decathlon, c'est du nouveau</commentaire>
+            <commentaire id="c_1783">reconditionnement à decathlon, c'est du nouveau</commentaire>
           </avis>
         </article>
         <article id="a_31" quantite="2">
@@ -787,9 +782,9 @@
           <marque>OXELO</marque>
           <prix>34</prix>
           <couleurs>
-            <couleur nom="pourpre"/>
-            <couleur nom="corail"/>
-            <couleur nom="blanc"/>
+            <couleur nomCSS="purple">pourpre</couleur>
+            <couleur nomCSS="salmon">corail</couleur>
+            <couleur nomCSS="white">blanc</couleur>
           </couleurs>
           <image src="./images/a_31_pourpe.jpg"/>
           <avis>
@@ -804,7 +799,7 @@
           <marque>EDA</marque>
           <prix>15</prix>
           <couleurs>
-            <couleur nom="rouge"/>
+            <couleur nomCSS="red">rouge</couleur>
           </couleurs>
           <image src="./images/a_33_rouge.jpg"/>
           <avis>

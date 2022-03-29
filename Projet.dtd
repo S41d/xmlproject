@@ -36,9 +36,9 @@
     <!ELEMENT couleurs (couleur)+>
     <!ATTLIST couleurs>
 
-    <!ELEMENT couleur EMPTY>
+    <!ELEMENT couleur (#PCDATA)>
     <!ATTLIST couleur
-        nom CDATA #REQUIRED>
+        nomCSS CDATA #REQUIRED>
 
     <!ELEMENT image EMPTY>
     <!ATTLIST image
