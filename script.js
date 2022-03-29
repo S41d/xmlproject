@@ -35,6 +35,7 @@ function xpathRequest(file, searchTerm) {
         argExists = true
     }
     if (argExists) evaluateString += "]"
+    console.log(evaluateString)
     let articles = file.evaluate(evaluateString, file, null, XPathResult.UNORDERED_NODE_SNAPSHOT_TYPE, null);
     let htmlString = ""
     for (let i = 0; i < articles.snapshotLength; i++) {
